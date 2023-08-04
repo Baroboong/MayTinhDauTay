@@ -1,0 +1,91 @@
+body{
+    margin: 8p;
+    padding: 0;
+    background: linear-gradient(to right, #4286f4, #373b44);
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 300px;
+    max-width: 100%;
+    min-height: 520px;
+    margin: 0 auto;
+    padding: 0 ;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #eaedef;;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.2);
+    margin-top: 20px;
+}
+.ban_phim{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,70px);
+    padding: 5px;
+    padding-bottom: 20px;
+}
+/* button#\30{
+    grid-column: 1/4;
+} */
+button {
+    font-size: 16px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15px auto;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    background-color: #F0F0F0;
+}
+button:nth-child(4) {
+    background-color: #20b2aa;
+    font-size: 20px;
+}
+button:nth-child(8) {
+    font-size: 20px;
+    background-color: #ffa500;
+}
+button:nth-child(12) {
+    font-size: 20px;
+    background-color: #f08080;
+}
+button:nth-child(16) {
+    font-size: 20px;
+    background-color: #7d93e0;
+}
+button:nth-child(18) {
+    font-size: 20px;
+    background-color: #9477af;
+}
+p{
+    text-align: right;
+}
+#\30 {
+    grid-column: 1/4;
+}
+
+.ket_qua_cu{
+    margin: 0 20px;
+    padding-top: 10px;
+}
+#gia_tri_save {
+    margin: 15px 0;
+    color: #919191;
+    font-size: 15px;
+    font-family: "Roboto",sans-serif;
+}
+.ket_qua{
+    margin: 0px 20px;
+}
+#gia_tri_nhap{
+    margin: 20px 0;
+    font-size: 33px;
+    font-family: "Roboto",sans-serif;
+    word-wrap: break-word;
+}
+button:active{
+    font-size: 13px;
+}
